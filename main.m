@@ -8,11 +8,11 @@ threshold = calculateThreshold(indicator);            % Estimating Threshold Ada
 RPeaks    = locateRPeaks(threshold,indicator,signal); % Detection of Rpeaks
 
 figure(1)
-plot(indicator)
+plot(indicator,'b','LineWidth',1)
 hold on
-plot(zeros(1,length(indicator))+threshold)
-
-sgtitle('         Thresholding')
+plot(zeros(1,length(indicator))+threshold,'r','LineWidth',1)
+legend('Normalised Signal','Threshold')
+title('         Thresholding')
 
 figure(2)
 subplot(2,1,1)
