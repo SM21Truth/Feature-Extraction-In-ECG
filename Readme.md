@@ -1,4 +1,5 @@
 # Feature Extraction (R Peaks) of ECG Signal
+### Author : Ashish Walia
 ## Overview
 This MATLAB code locates R peaks in ECG signals with artifacts using a Gaussian pulse to generate an indicator signal. The indicator signal identifies regions where the R wave is present in the ECG.
 ![Image](https://github.com/user-attachments/assets/3cddf381-63f3-4df6-bb88-ec5acd824d9d)
